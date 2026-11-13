@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime
 
 
 
@@ -17,6 +17,7 @@ class FoodItem:
     mind_category: str          # e.g. "leafy_greens", "berries", "fish"
     is_low_sodium: bool
     is_low_gi: bool
+    meal_types: str             # meals it suits, separated by ";" e.g. "breakfast;snack"
 
 @dataclass
 class PatientProfile:
@@ -35,3 +36,37 @@ class PatientProfile:
     iddsi_level: int
     has_hypertension: bool
     has_diabetes: bool
+
+@dataclass
+class DailySymptomLog:
+    log_id: str
+    log_date: date
+    agitation_level: str      # "none", "mild", "moderate", "severe"
+    is_aggressive: bool
+    mood_state: str
+    appetite_status: list
+    fluid_intake_ml: int
+
+@dataclass
+class MealEntry:
+    entry_id: str
+    food_id: str
+    day_of_week: str
+    meal_type: str
+    portion_grams: float
+    applied_rationale: str
+
+
+@dataclass
+class MealPlan:
+    plan_id: str
+    patient_id: str
+    generated_date: datetime
+    validation_status: str
+    is_validated_by_nutritionist: bool
+    validation_date: str | None
+    total_daily_calories: float
+    clinical_alerts: list
+    behavioral_notes: list
+    entries: list
+    validation_notes: str | None = None

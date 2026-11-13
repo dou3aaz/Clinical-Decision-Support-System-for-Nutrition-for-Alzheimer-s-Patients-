@@ -1,15 +1,15 @@
-food_id,name_en,name_dz,name_fr,texture_level,is_thin_liquid,is_comfort_food,calories_per_100g,protein_g,mind_category,is_low_sodium,is_low_gi
-F001,Lentil soup,شوربة العدس,Soupe de lentilles,4,0,1,90,6,legumes,1,1
-F002,Cooked spinach,سبانخ مطبوخ,Épinards cuits,5,0,0,23,2.9,leafy_greens,1,1
-F003,Baked fish,حوت في الفرن,Poisson au four,6,0,0,120,22,fish,1,1
-F004,Water,الما,Eau,0,1,0,0,0,none,1,1
-TEST_01,French fries,بطاطا مقلية,Frites,7,0,0,300,3.5,fried_food,0,0
-TEST_02,Salty cheese,جبن مالح,Fromage salé,7,0,0,350,22,cheese,0,1
-TEST_03,Makroud (date pastry),مقروض,Makroud,7,0,0,400,5,pastries_sweets,1,0
-TEST_04,Chicken broth,مرق الدجاج,Bouillon de poulet,0,1,1,15,1.5,poultry,1,1
-TEST_05,Apple compote,كومبوت التفاح,Compote de pommes,4,0,1,60,0.3,fruit,1,1
-TEST_06,Strawberry puree,هريس الفراولة,Purée de fraises,4,0,0,35,0.7,berries,1,1
-TEST_07,Mashed potatoes,بطاطا مهروسة,Purée de pommes de terre,4,0,1,85,2,vegetables,1,0
-TEST_08,Walnuts,الجوز,Noix,7,0,0,650,15,nuts,1,1
-TEST_09,Couscous with vegetables,كسكسي بالخضر,Couscous aux légumes,6,0,1,110,4,grains,1,0
-TEST_10,Plain yogurt,الياغورت,Yaourt nature,3,0,0,60,4,dairy,1,1
+food_id,name_en,name_dz,name_fr,texture_level,is_thin_liquid,is_comfort_food,calories_per_100g,protein_g,mind_category,is_low_sodium,is_low_gi,meal_types
+F001,Lentil soup,شوربة العدس,Soupe de lentilles,4,0,1,90,6,legumes,1,1,lunch;dinner
+F002,Cooked spinach,سبانخ مطبوخ,Épinards cuits,5,0,0,23,2.9,leafy_greens,1,1,lunch;dinner
+F003,Baked fish,حوت في الفرن,Poisson au four,6,0,0,120,22,fish,1,1,lunch;dinner
+F004,Water,الما,Eau,0,1,0,0,0,none,1,1,
+TEST_01,French fries,بطاطا مقلية,Frites,7,0,0,300,3.5,fried_food,0,0,lunch;dinner
+TEST_02,Salty cheese,جبن مالح,Fromage salé,7,0,0,350,22,cheese,0,1,breakfast;snack
+TEST_03,Makroud (date pastry),مقروض,Makroud,7,0,0,400,5,pastries_sweets,1,0,breakfast;snack
+TEST_04,Chicken broth,مرق الدجاج,Bouillon de poulet,0,1,1,15,1.5,poultry,1,1,lunch;dinner
+TEST_05,Apple compote,كومبوت التفاح,Compote de pommes,4,0,1,60,0.3,fruit,1,1,breakfast;snack
+TEST_06,Strawberry puree,هريس الفراولة,Purée de fraises,4,0,0,35,0.7,berries,1,1,breakfast;snack
+TEST_07,Mashed potatoes,بطاطا مهروسة,Purée de pommes de terre,4,0,1,85,2,vegetables,1,0,lunch;dinner
+TEST_08,Walnuts,الجوز,Noix,7,0,0,650,15,nuts,1,1,breakfast;snack
+TEST_09,Couscous with vegetables,كسكسي بالخضر,Couscous aux légumes,6,0,1,110,4,grains,1,0,lunch;dinner
+TEST_10,Plain yogurt,الياغورت,Yaourt nature,3,0,0,60,4,dairy,1,1,breakfast;snack
